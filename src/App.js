@@ -1,28 +1,28 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import { Map, TileLayer } from 'react-leaflet';
 import './App.css';
+import webpack from 'webpack';
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
-    );
-  }
+const stamenTonerTiles = 'http://stamen-tiles-{s}.a.ssl.fastly.net/toner-background/{z}/{x}/{y}.png';
+const stamenTonerAttr = 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>';
+const mapCenter = [38.305456, -101.159517];
+const zoomLevel = 4;
+
+require("babel-core").transform("code", options);
+export default class App extends Component {
+    render() {
+        return (
+            <div>
+                <Map
+                    center={mapCenter}
+                    zoom={zoomLevel}
+                >
+                    <TileLayer
+                        attribution={stamenTonerAttr}
+                        url={stamenTonerTiles}
+                    />
+                </Map>
+            </div>
+        );
+    }
 }
-
-export default App;
