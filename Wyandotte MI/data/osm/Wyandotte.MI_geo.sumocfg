@@ -1,0 +1,10 @@
+<configuration> 
+    <input> 
+        <net-file value="Wyandotte.MI.net.xml" /> 
+        <route-files value="Wyandotte.MI.rou.xml" /> 
+    </input> 
+    <time> 
+        <begin value="0" /> 
+        <end value="30000" /> 
+    </time> 
+</configuration> 
