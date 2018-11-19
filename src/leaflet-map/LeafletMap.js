@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
+import ReactDOM from "react-dom";
 import { Map, TileLayer } from 'react-leaflet';
-import './App.css';
 import webpack from 'webpack';
 
 const stamenTonerTiles = 'http://stamen-tiles-{s}.a.ssl.fastly.net/toner-background/{z}/{x}/{y}.png';
@@ -8,11 +8,11 @@ const stamenTonerAttr = 'Map tiles by <a href="http://stamen.com">Stamen Design<
 const mapCenter = [38.305456, -101.159517];
 const zoomLevel = 4;
 
-require("babel-core").transform("code", options);
-export default class App extends Component {
+class LeafletMap extends Component {
     render() {
         return (
             <div>
+                <h3>Map</h3>
                 <Map
                     center={mapCenter}
                     zoom={zoomLevel}
@@ -26,3 +26,7 @@ export default class App extends Component {
         );
     }
 }
+
+export default LeafletMap;
+//const wrapper = document.getElementById("leaflet-map");
+wrapper ? ReactDOM.render(<LeafletMap />, document.getElementById("leaflet-map")) : false;

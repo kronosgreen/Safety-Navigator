@@ -4,13 +4,45 @@
 <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" >
-    <title>Safety Navigator v0.1.1</title>
-    <script type="text/javascript" src="./index.js"></script>
+    <title>Safety Navigator v0.1.2</title>
+    <style>
+      #header {
+        width: 100%;
+        margin: 50px;
+      }
+      #sidebar {
+        margin: 50px;
+        float: right;
+        font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+        color: gray;
+      }
+    </style>
 </head>
 
+<!--<body>
+    <div id="header">
+      <h1>Safety Navigator</h1>
+    </div>
+    <div id="main">
+      <div id="leaflet-map">
+      </div>
+    </div>
+    <div id="sidebar">
+      Location<br><input type="text"><br>
+      Destination<br><input type="text"><br>
+    </div>
+</body>-->
 <body>
     <div class="container">
-        <div id="mount">
+        <div class="row mt-5">
+            <div class="col-md-4 offset-md-1">
+                <p>Create a new article</p>
+                <div id="create-article-form">
+                    <!-- form -->
+                </div>
+                <div id="leaflet-map">
+                </div>
+            </div>
         </div>
     </div>
 </body>

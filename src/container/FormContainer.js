@@ -8,6 +8,7 @@ class FormContainer extends Component {
       seo_title: ""
     };
     this.handleChange = this.handleChange.bind(this);
+    console.log("CONSTRUCTED")
   }
   handleChange(event) {
     this.setState({ [event.target.id]: event.target.value });
@@ -29,5 +30,7 @@ class FormContainer extends Component {
   }
 }
 export default FormContainer;
-const wrapper = document.getElementById("create-article-form");
-wrapper ? ReactDOM.render(<FormContainer />, wrapper) : false;
+//const wrapper = document.getElementById("create-article-form");
+//wrapper ? ReactDOM.render(<FormContainer />, wrapper) : false;
+console.log("Rendering Form Container");
+ReactDOM.render(<FormContainer />, document.getElementById("create-article-form"));
