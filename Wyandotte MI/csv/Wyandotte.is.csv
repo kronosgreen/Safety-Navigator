@@ -1,0 +1,43 @@
+FALINK_ID,LOCALRANK,COUNTYRANK,REGIONRANK,NAME,FROMROADTOROAD,Y2013,Y2014,Y2015,Y2016,Y2017,TOTAL,YEARLYAVG
+10332,1,276,1111,Ford Ave,Fort St - 12th St,16,16,20,26,28,106,21.2
+12883,2,299,1197,Fort St,Quarry Rd - Eureka Ave,10,22,14,29,27,102,20.4
+10289,3,374,1420,Eureka Ave,Fort St - 12th St,18,20,19,14,21,92,18.4
+10333,4,382,1444,Ford Ave,12th St - 4th St,9,21,20,20,21,91,18.2
+12885,5,391,1471,Fort St,Oak St - Ford Ave,10,19,10,34,17,90,18
+17903,6,464,1678,Biddle Ave,Oak St - Ford Ave,15,23,17,16,12,83,16.6
+10290,7,682,2269,Eureka Ave,12th St - 4th St,17,15,15,9,12,68,13.6
+17902,8,694,2312,Biddle Ave,Eureka Ave - Oak St,10,9,14,17,17,67,13.4
+12886,9,746,2458,Fort St,Ford Ave - Old Goddard Rd,7,12,11,15,19,64,12.8
+10351,10,909,2858,Old Goddard Rd,Fort St - Harrison Blvd,13,9,17,6,12,57,11.4
+20741,11,930,2916,Oak St,Fort St - 12th St,11,9,13,13,10,56,11.2
+17904,12,1144,3488,Biddle Ave,Ford Ave - Goddard Rd,7,9,10,11,11,48,9.6
+12884,13,1210,3652,Fort St,Eureka Ave - Oak St,8,3,12,13,10,46,9.2
+17906,14,1407,4160,Jefferson Ave W,Emmons Blvd - Southfield Rd,8,12,4,12,5,41,8.2
+15705,15,1490,4389,Pennsylvania Ave,Quarry Rd - Biddle Ave,6,10,8,8,7,39,7.8
+22002,16,1597,4623,Goddard Rd,Old Goddard Rd - Biddle Ave,10,6,8,6,7,37,7.4
+17905,17,1740,4987,Biddle Ave,Goddard Rd - Emmons Blvd,7,10,9,3,5,34,6.8
+20742,18,1794,5140,Oak St,12th St - 4th St,6,5,7,7,8,33,6.6
+15427,19,2340,6493,3rd St,Eureka Ave - Oak St,6,2,3,5,9,25,5
+13174,20,2496,6883,Emmons Blvd,River Dr - Biddle Ave,2,9,4,5,3,23,4.6
+21535,21,2784,7614,2nd St,Oak St - Ford Ave,5,6,1,4,4,20,4
+15428,22,3030,8133,3rd St,Oak St - Ford Ave,8,3,4,2,1,18,3.6
+13167,23,3030,8133,Quarry Rd,Pennsylvania Ave - Quarry Rd,4,3,4,2,5,18,3.6
+10291,24,3161,8437,Eureka Ave,4th St - 3rd St,6,4,3,3,1,17,3.4
+15484,25,3161,8437,12th St,Oak St - Ford Ave,3,2,3,5,4,17,3.4
+17901,26,3459,9096,Biddle Ave,Biddle Ave - Eureka Ave,2,2,3,6,2,15,3
+21998,27,3459,9096,4th St,Oak St - Ford Ave,3,3,4,3,2,15,3
+15426,28,4220,10670,3rd St,Biddle Ave - Eureka Ave,4,2,0,0,5,11,2.2
+10336,29,4220,10670,Ford Ave,2nd St - Biddle Ave,3,1,2,3,2,11,2.2
+10292,30,4459,11167,Eureka Ave,3rd St - Biddle Ave,2,4,1,2,1,10,2
+15483,31,4726,11674,12th St,Eureka Ave - Oak St,4,1,4,0,0,9,1.8
+21147,32,5000,12243,Biddle Ave,Pennsylvania Ave - Biddle Ave,0,2,2,3,1,8,1.6
+20745,33,5360,12909,Oak St,2nd St - Biddle Ave,2,1,2,2,0,7,1.4
+21997,34,5766,13657,4th St,Eureka Ave - Oak St,2,4,0,0,0,6,1.2
+17900,35,5766,13657,Biddle Ave,Pennsylvania Ave - Biddle Ave,0,1,1,1,3,6,1.2
+20743,36,5766,13657,Oak St,4th St - 3rd St,1,0,3,1,1,6,1.2
+10334,37,6213,14411,Ford Ave,4th St - 3rd St,2,0,1,1,1,5,1
+13170,38,6683,15283,Quarry Rd,Quarry Rd - Fort St,2,1,0,1,0,4,0.8
+10335,39,7888,17396,Ford Ave,3rd St - 2nd St,1,0,1,0,0,2,0.4
+20744,40,8659,18738,Oak St,3rd St - 2nd St,0,0,1,0,0,1,0.2
+15706,41,8659,18738,Pennsylvania Ave,Biddle Ave - Biddle Ave,0,0,0,0,1,1,0.2
+22001,42,8659,18738,Harrison Blvd,River Dr - Old Goddard Rd,1,0,0,0,0,1,0.2
